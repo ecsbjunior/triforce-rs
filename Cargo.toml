@@ -1,0 +1,11 @@
+[package]
+name = "triforce-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+triforce-gl = { path = "crates/triforce-gl", version = "0.1.0" }
+triforce-window = { path = "crates/triforce-window", version = "0.1.0" }
+triforce-render = { path = "crates/triforce-render", version = "0.1.0" }

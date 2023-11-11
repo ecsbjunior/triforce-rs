@@ -1,0 +1,17 @@
+[package]
+name = "triforce-render"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+triforce-gl = { path = "../triforce-gl", version = "0.1.0" }
+triforce-window = { path = "../triforce-window", version = "0.1.0" }
+
+[dependencies.windows-sys]
+version = "0.48"
+features = [
+  "Win32_Graphics_Gdi",
+  "Win32_Graphics_OpenGL",
+]
